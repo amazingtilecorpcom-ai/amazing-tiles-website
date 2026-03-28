@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Amazing Tile Corp. Let’s talk about your project and bring your vision to life.">
+    <title>Contact Us | Amazing Tile Corp</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Manrope:wght@400..800&display=swap"
+        rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=6">
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <!-- Favicon placeholder -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo_light.png" alt="Amazing Tile Corp Logo" class="logo-img light-logo">
+                <img src="assets/images/logo_dark.png" alt="Amazing Tile Corp Logo" class="logo-img dark-logo">
+            </a>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </nav>
+
+            <a href="contact.html" class="btn btn-outline cta-nav">Free Estimate</a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 80vh;">
+        <div class="hero-bg">
+            <picture>
+                <source media="(min-width: 768px)" srcset="assets/images/hero_bg_desktop.webp" type="image/webp">
+                <source srcset="assets/images/hero_bg_mobile.webp" type="image/webp">
+                <img src="assets/images/hero_bg_desktop.webp" alt="Kitchen tile installation project by Amazing Tile Corp">
+            </picture>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content text-center" style="padding-top: 120px;">
+            <span class="eyebrow" style="color: white; border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 5px; margin-bottom: 20px;">Contact Us</span>
+            <h1 class="hero-headline">
+                <span class="mask"><span>Let’s Talk About</span></span><br>
+                <span class="mask"><span>Your Project</span></span>
+            </h1>
+            <p class="hero-subheadline">
+                <span class="mask"><span>We’re ready to bring your vision to life.</span></span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Content Section -->
+    <section class="contact-section section-padding">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-subtitle" style="margin-bottom: 3rem;">Reach out to us to schedule a visit, ask questions, or request your free estimate.</p>
+                    
+                    <div class="info-item">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.77a16 16 0 0 0 5.33 5.33l1.85-1.85a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.02z"/></svg>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <p>
+                                <a href="tel:7746064277" class="hover-link">(774) 606-4277</a><br>
+                                <a href="tel:7819756478" class="hover-link">(781) 975-6478</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p><a href="mailto:jaisonrabelodeborba@gmail.com" class="hover-link">jaisonrabelodeborba@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div class="info-content">
+                            <h4>Address</h4>
+                            <p>25 Voses Court<br>Stoughton, MA 02072</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form" action="#" method="POST" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="full-name">Full Name</label>
+                                <input type="text" id="full-name" name="full-name" placeholder="John Doe" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="location">Project Location</label>
+                                <input type="text" id="location" name="location" placeholder="City, State" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="service">Service Needed</label>
+                            <div class="select-wrapper">
+                                <select id="service" name="service" required>
+                                    <option value="" disabled selected>Select a Service</option>
+                                    <option value="bathroom">Bathroom Remodel</option>
+                                    <option value="kitchen">Kitchen Backsplash/Floors</option>
+                                    <option value="flooring">General Tile Flooring</option>
+                                    <option value="custom">Custom Installation</option>
+                                </select>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="select-icon"><path d="m6 9 6 6 6-6"/></svg>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us more about your project..." required></textarea>
+                        </div>
+                        
+                        <div class="form-submit full-width" style="margin-top: 1rem;">
+                            <button type="submit" id="submit-btn" class="btn btn-primary w-100 send-btn">Send Message <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
+                        </div>
+
+                        <div id="form-success" style="display:none; margin-top: 1.25rem; padding: 1rem 1.25rem; background: #ecfdf5; border: 1px solid #6ee7b7; border-radius: 6px; color: #065f46; font-size: 0.95rem; font-family: 'Manrope', sans-serif;">
+                            ✅ Message sent! We'll be in touch soon.
+                        </div>
+
+                        <div id="form-error" style="display:none; margin-top: 1.25rem; padding: 1rem 1.25rem; background: #fef2f2; border: 1px solid #fca5a5; border-radius: 6px; color: #991b1b; font-size: 0.95rem; font-family: 'Manrope', sans-serif;">
+                            ❌ <span id="form-error-text">Something went wrong. Please try again.</span>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h4>Amazing Tile Corp</h4>
+                    <p>Precision tile installation serving MA, NH, and ME. Built on craftsmanship and integrity.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#projects">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Bathroom</a></li>
+                        <li><a href="services.html">Kitchen</a></li>
+                        <li><a href="services.html">Flooring</a></li>
+                        <li><a href="services.html">Custom</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons-row">
+                        <a href="https://www.instagram.com/amazing_tile_corp/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">IG</a>
+                        <a href="https://www.facebook.com/amazingtilecorp" aria-label="Facebook" target="_blank" rel="noopener noreferrer">FB</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Amazing Tile Corp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js?v=2"></script>
+
+    <!-- Contact Form Submission -->
+    <script>
+    (function () {
+        const form = document.getElementById('contact-form');
+        if (!form) return;
+
+        const submitBtn = document.getElementById('submit-btn');
+        const successBox = document.getElementById('form-success');
+        const errorBox = document.getElementById('form-error');
+        const errorText = document.getElementById('form-error-text');
+
+        function setLoading(isLoading) {
+            submitBtn.disabled = isLoading;
+            submitBtn.innerHTML = isLoading
+                ? '<span style="opacity:.7;">Sending…</span>'
+                : 'Send Message <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>';
+            // no lucide needed — using inline SVG
+        }
+
+        function hideAlerts() {
+            successBox.style.display = 'none';
+            errorBox.style.display = 'none';
+        }
+
+        form.addEventListener('submit', async function (e) {
+            e.preventDefault();
+            hideAlerts();
+
+            const formData = new FormData(form);
+            const payload = {};
+            formData.forEach((value, key) => { payload[key] = value; });
+
+            setLoading(true);
+
+            try {
+                const response = await fetch('/api/contact', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload),
+                });
+
+                const result = await response.json();
+
+                if (response.ok && result.success) {
+                    form.reset();
+                    successBox.style.display = 'block';
+                    successBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                } else {
+                    errorText.textContent = result.error || 'Something went wrong. Please try again.';
+                    errorBox.style.display = 'block';
+                    errorBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            } catch (err) {
+                errorText.textContent = 'Network error. Please check your connection and try again.';
+                errorBox.style.display = 'block';
+                errorBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            } finally {
+                setLoading(false);
+            }
+        });
+    }());
+    </script>
+</body>
+
+</html>

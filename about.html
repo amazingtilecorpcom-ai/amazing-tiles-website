@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Amazing Tile Corp</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Manrope:wght@400..800&display=swap"
+        rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=6">
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo_light.png" alt="Amazing Tile Corp Logo" class="logo-img light-logo">
+                <img src="assets/images/logo_dark.png" alt="Amazing Tile Corp Logo" class="logo-img dark-logo">
+            </a>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+
+            <a href="contact.html" class="btn btn-outline cta-nav">Free Estimate</a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 80vh;">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" alt="Beautiful tiled space">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content text-center" style="padding-top: 120px;">
+            <span class="eyebrow" style="color: white; border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 5px; margin-bottom: 20px;">Our Story</span>
+            <h1 class="hero-headline">
+                <span class="mask"><span>About Amazing Tile Corp.</span></span>
+            </h1>
+            <p class="hero-subheadline">
+                <span class="mask"><span>Craftsmanship. Integrity. Respect.</span></span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Story / Values Section -->
+    <section class="section-padding about-story-section">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-text">
+                    <span class="eyebrow">Who We Are</span>
+                    <h2>Our Story</h2>
+                    <p>At Amazing Tile Corp., we believe that every tile tells a story. Founded by Jaison Borba, a master builder with years of experience in the construction industry, our company was built on the principles of precision and dedication. We don't just install tiles; we transform spaces.</p>
+                    <p>Our team brings unparalleled expertise to every project, ensuring that every cut, every layout, and every finish meets the highest standards of quality.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&q=80" alt="Craftsman installing tiles">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Strip -->
+    <section class="stats-strip" style="background-color: #F8F6F4;">
+        <div class="container stats-container">
+            <div class="stat-item">
+                <div class="stat-number"><span class="counter" data-target="10">0</span>+</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number"><span class="counter" data-target="500">0</span>+</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number"><span class="counter" data-target="100">0</span>%</div>
+                <div class="stat-label">Client Satisfaction</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Values -->
+    <section class="section-padding bg-light mission-values-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="eyebrow">Our Philosophy</span>
+                <h2 class="section-title">Our Core Values</h2>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </div>
+                    <h3>Craftsmanship</h3>
+                    <p>We treat every project as a work of art. Our attention to detail ensures a flawless finish that stands the test of time.</p>
+                </div>
+                <div class="value-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h3>Integrity</h3>
+                    <p>We believe in honest pricing, transparent communication, and delivering exactly what we promise.</p>
+                </div>
+                <div class="value-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h3>Respect</h3>
+                    <p>We respect your time, your space, and your vision. Our team is always clean, courteous, and professional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pre-Footer CTA -->
+    <section class="pre-footer section-padding bg-light">
+        <div class="container cta-split">
+            <div class="cta-left">
+                <h2>Ready to Transform Your Space?</h2>
+                <p>Let's discuss your next project and bring your vision to life with precision and care.</p>
+            </div>
+            <div class="cta-right cta-right-flex">
+                <a href="contact.html" class="btn btn-primary">Get Your Free Estimate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h4>Amazing Tile Corp</h4>
+                    <p>Precision tile installation serving MA, NH, and ME. Built on craftsmanship and integrity.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#projects">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Bathroom</a></li>
+                        <li><a href="services.html">Kitchen</a></li>
+                        <li><a href="services.html">Flooring</a></li>
+                        <li><a href="services.html">Custom</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons-row">
+                        <a href="https://www.instagram.com/amazing_tile_corp/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">IG</a>
+                        <a href="https://www.facebook.com/amazingtilecorp" aria-label="Facebook" target="_blank" rel="noopener noreferrer">FB</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Amazing Tile Corp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js?v=2"></script>
+</body>
+</html>

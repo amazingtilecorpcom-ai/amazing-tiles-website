@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional Tile Installation Services. High-quality tile solutions for homeowners and contractors.">
+    <title>Services | Amazing Tile Corp</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Manrope:wght@400..800&display=swap"
+        rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=6">
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <style>
+        .projects-3-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin-top: 60px;
+            width: 100%;
+        }
+        .testi-2-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            margin-top: 60px;
+            max-width: 900px;
+            margin-inline: auto;
+        }
+        @media (max-width: 1024px) {
+            .projects-3-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .projects-3-grid {
+                grid-template-columns: 1fr;
+            }
+            .testi-2-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo_light.png" alt="Amazing Tile Corp Logo" class="logo-img light-logo">
+                <img src="assets/images/logo_dark.png" alt="Amazing Tile Corp Logo" class="logo-img dark-logo">
+            </a>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="services.html" class="nav-link active">Services</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+
+            <a href="contact.html" class="btn btn-outline cta-nav">Free Estimate</a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 80vh;">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80" alt="Beautiful tiled bathroom">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content text-center" style="padding-top: 120px;">
+            <span class="eyebrow" style="color: white; border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 5px; margin-bottom: 20px;">Our Expertise</span>
+            <h1 class="hero-headline">
+                <span class="mask"><span>Professional Tile</span></span><br>
+                <span class="mask"><span>Installation Services</span></span>
+            </h1>
+            <p class="hero-subheadline">
+                <span class="mask"><span>High-quality tile solutions for homeowners and contractors.</span></span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Our Services</h2>
+                <p>Comprehensive tile installation for every room in your home.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="assets/images/bathroom_tile.png" alt="Bathroom Tile Installation">
+                    </div>
+                    <div class="service-body">
+                        <h3>Bathroom Tile Installation</h3>
+                        <p>Premium tile installation for showers, floors, and walls.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="assets/images/kitchen_tile.png" alt="Kitchen Backsplash">
+                    </div>
+                    <div class="service-body">
+                        <h3>Kitchen Backsplash</h3>
+                        <p>Clean, precise backsplash installation.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="assets/images/floor_tile.png" alt="Floor Tile Installation">
+                    </div>
+                    <div class="service-body">
+                        <h3>Floor Tile Installation</h3>
+                        <p>Durable tile floors installed with precision.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="assets/images/custom_tile.webp" alt="Custom Tile Projects">
+                    </div>
+                    <div class="service-body">
+                        <h3>Custom Tile Projects</h3>
+                        <p>Unique designs tailored to your home.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="assets/images/basement_tile.png" alt="Basement Tile Installation">
+                    </div>
+                    <div class="service-body">
+                        <h3>Basement Tile Installation</h3>
+                        <p>Reliable tile solutions for basements.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="assets/images/fireplace_tile.png" alt="Fireplace Tile Installation">
+                    </div>
+                    <div class="service-body">
+                        <h3>Fireplace Tile Installation</h3>
+                        <p>Elegant tile finishes for fireplaces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="projects section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="projects-3-grid">
+                <div class="project-vertical-card">
+                    <img src="assets/images/project1_bathroom.png" alt="Bathroom Tile">
+                </div>
+                <div class="project-vertical-card">
+                    <img src="assets/images/project2_kitchen.png" alt="Backsplash Installation">
+                </div>
+                <div class="project-vertical-card">
+                    <img src="assets/images/project4_shower.webp" alt="Marble Shower Tile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding bg-light">
+        <div class="container text-center">
+            <div class="section-header">
+                <h2>Trusted by Homeowners & Builders</h2>
+            </div>
+            <div class="testi-2-grid">
+                <div class="testi-card">
+                    <p class="testi-quote">“The best tile contractor we’ve worked with.”</p>
+                    <div class="testi-author">
+                        <p class="name">David K.</p>
+                        <span class="location">Sharon, MA</span>
+                    </div>
+                </div>
+                <div class="testi-card">
+                    <p class="testi-quote">“Incredible attention to detail.”</p>
+                    <div class="testi-author">
+                        <p class="name">Sarah L.</p>
+                        <span class="location">Randolph, MA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pre-Footer CTA -->
+    <section class="pre-footer section-padding">
+        <div class="container cta-split">
+            <div class="cta-left">
+                <h2>Start Your Tile Project Today</h2>
+                <p>Contact us for a free estimate.</p>
+            </div>
+            <div class="cta-right cta-right-flex">
+                <a href="contact.html" class="btn btn-primary">Request Estimate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h4>Amazing Tile Corp</h4>
+                    <p>Precision tile installation serving MA, NH, and ME. Built on craftsmanship and integrity.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#projects">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Bathroom</a></li>
+                        <li><a href="services.html">Kitchen</a></li>
+                        <li><a href="services.html">Flooring</a></li>
+                        <li><a href="services.html">Custom</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons-row">
+                        <a href="https://www.instagram.com/amazing_tile_corp/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">IG</a>
+                        <a href="https://www.facebook.com/amazingtilecorp" aria-label="Facebook" target="_blank" rel="noopener noreferrer">FB</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Amazing Tile Corp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js?v=2"></script>
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Amazing Tiles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=6">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">AMAZING TILES</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <a href="contact.html" class="btn btn-primary cta-nav">Request Quote</a>
+            <button class="hamburger" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Inner Hero -->
+    <header class="hero hero-inner">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <h1>Our Portfolio</h1>
+            <p class="hero-subtitle">Explore a selection of our finest tile installations, showcasing our commitment to precision, beauty, and enduring quality.</p>
+        </div>
+    </header>
+
+    <!-- Portfolio Projects Gallery -->
+    <section class="section-padding">
+        <div class="container">
+            <!-- Portfolio Filters (Optional UI element) -->
+            <div class="portfolio-filters text-center" style="margin-bottom: 40px;">
+                <button class="btn btn-outline filter-btn active" data-filter="all">All Projects</button>
+                <button class="btn btn-outline filter-btn" data-filter="residential">Residential</button>
+                <button class="btn btn-outline filter-btn" data-filter="commercial">Commercial</button>
+                <button class="btn btn-outline filter-btn" data-filter="custom">Custom Design</button>
+            </div>
+
+            <!-- Portfolio Grid Using Vertical Grid Setup -->
+            <div class="projects-vertical-grid portfolio-grid">
+                <!-- Project 1 -->
+                <div class="project-vertical-card portfolio-item" data-category="residential">
+                    <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80" alt="Modern Bathroom Renovation">
+                    <div class="project-overlay">
+                        <div>
+                            <span class="project-category">Residential</span>
+                            <h3 class="project-title">Modern Bathroom Oasis</h3>
+                        </div>
+                        <a href="contact.html" class="btn btn-outline">Start Similar Project</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-vertical-card portfolio-item" data-category="commercial">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80" alt="Corporate Lobby Tiling">
+                    <div class="project-overlay">
+                        <div>
+                            <span class="project-category">Commercial</span>
+                            <h3 class="project-title">Corporate Lobby Tiling</h3>
+                        </div>
+                        <a href="contact.html" class="btn btn-outline">Start Similar Project</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-vertical-card portfolio-item" data-category="residential">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&q=80" alt="Luxury Kitchen Backsplash">
+                    <div class="project-overlay">
+                        <div>
+                            <span class="project-category">Residential</span>
+                            <h3 class="project-title">Luxury Kitchen Backsplash</h3>
+                        </div>
+                        <a href="contact.html" class="btn btn-outline">Start Similar Project</a>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-vertical-card portfolio-item" data-category="custom">
+                    <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd64bd0b?auto=format&fit=crop&q=80" alt="Custom Mosaic Floor">
+                    <div class="project-overlay">
+                        <div>
+                            <span class="project-category">Custom Design</span>
+                            <h3 class="project-title">Custom Mosaic Entryway</h3>
+                        </div>
+                        <a href="contact.html" class="btn btn-outline">Start Similar Project</a>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-vertical-card portfolio-item" data-category="residential">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" alt="Outdoor Patio Tiling">
+                    <div class="project-overlay">
+                        <div>
+                            <span class="project-category">Residential</span>
+                            <h3 class="project-title">Mediterranean Patio</h3>
+                        </div>
+                        <a href="contact.html" class="btn btn-outline">Start Similar Project</a>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-vertical-card portfolio-item" data-category="commercial">
+                    <img src="https://images.unsplash.com/photo-1628198751500-1c312788f4b5?auto=format&fit=crop&q=80" alt="High-End Restaurant Flooring">
+                    <div class="project-overlay">
+                        <div>
+                            <span class="project-category">Commercial</span>
+                            <h3 class="project-title">High-End Restaurant Flooring</h3>
+                        </div>
+                        <a href="contact.html" class="btn btn-outline">Start Similar Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container text-center">
+            <h2 class="section-title">Ready to Transform Your Space?</h2>
+            <p style="margin-bottom: 30px; font-size: 1.125rem;">Contact us today to discuss your vision and get a free quote for your next tile project.</p>
+            <a href="contact.html" class="btn btn-primary">Get Your Free Quote</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3 class="logo">AMAZING TILES</h3>
+                    <p>Elevating spaces through exceptional tile craftsmanship since 2010. We blend traditional techniques with modern design for timeless results.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Custom Design</a></li>
+                        <li><a href="#">Residential</a></li>
+                        <li><a href="#">Commercial</a></li>
+                        <li><a href="#">Restoration</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i data-lucide="map-pin"></i> 123 Artisan Way, Design District</li>
+                        <li><i data-lucide="phone"></i> (555) 123-4567</li>
+                        <li><i data-lucide="mail"></i> hello@amazingtiles.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Amazing Tiles. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/amazing_tile_corp/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+                    <a href="https://www.facebook.com/amazingtilecorp" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+
+        // Simple Mobile Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Simple Portfolio Filtering script
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const filterValue = btn.getAttribute('data-filter');
+
+                portfolioItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="main.js?v=2"></script>
+</body>
+</html>
