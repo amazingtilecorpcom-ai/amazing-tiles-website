@@ -1,7 +1,6 @@
 {
-  "name": "amazing-tiles-website",
+  "name": "amazing-tiles-api",
   "version": "1.0.0",
-  "description": "Amazing Tile Corp - Contact form backend",
   "dependencies": {
     "dotenv": "^16.4.5",
     "resend": "^3.5.0"
